@@ -1,9 +1,10 @@
 import './App.css';
+import Navbar from './Shared/Navbar';
 
 function App() {
   return (
     <div>
-      <h2 className="text-2xl">Hello React</h2>
+      <Navbar />
     </div>
   );
 }
